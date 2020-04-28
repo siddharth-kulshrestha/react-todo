@@ -1,0 +1,30 @@
+.item-container {
+    border-style: solid;
+    border-radius: 5%;
+    border-color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+    
+}
+
+.item-content {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    margin: 10px;
+}
+
+.item-rate-handler {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
