@@ -23,7 +23,7 @@ const todoReducer = (state = defaultState, action) => {
             // ));
             // newState.items.push(item)
             newState.items.forEach((item) => {
-                if (item.id == idRatingMap.itemID) {
+                if (item.id === idRatingMap.itemID) {
                     item.rating = idRatingMap.rating
                 }
             });
