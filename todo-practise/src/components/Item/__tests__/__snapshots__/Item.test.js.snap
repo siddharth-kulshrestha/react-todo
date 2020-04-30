@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item  should render correctly  1`] = `
+<div
+  className="item-container"
+>
+  <div
+    className="item-content"
+  >
+    <h3>
+      test content
+    </h3>
+  </div>
+  <div
+    className="item-rate-handler"
+  >
+    <RateItem
+      onRatingChange={[Function]}
+      rating={6}
+    />
+  </div>
+</div>
+`;
