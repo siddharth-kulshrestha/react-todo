@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Input  should render correctly  1`] = `
+<form
+  className="form-container"
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Item Content"
+    type="text"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="Rating"
+    type="number"
+    value={0}
+  />
+  <input
+    type="submit"
+    value="Add"
+  />
+</form>
+`;

@@ -30,7 +30,7 @@ function getData() {
     ];
 };
 
-class TodoBody extends PureComponent {
+export class TodoBody extends PureComponent {
     state = {
         data: [],
     }

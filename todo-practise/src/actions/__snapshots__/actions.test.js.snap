@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Testing action creators   createItem -- Snapshot tests  1`] = `
+Object {
+  "payload": Object {
+    "content": "test item content",
+    "rating": 50,
+  },
+  "type": "CREATE_ITEM",
+}
+`;

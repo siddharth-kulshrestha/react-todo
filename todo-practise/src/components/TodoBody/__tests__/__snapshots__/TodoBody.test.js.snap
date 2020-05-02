@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoBody Test suite  check whether add multiple action call  1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(TodoBody)>
+    <TodoBody
+      data={Array []}
+      dispatch={[Function]}
+    >
+      <div
+        className="todo-body-container"
+      >
+        <ItemInput
+          onInput={[Function]}
+        >
+          <form
+            className="form-container"
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              placeholder="Item Content"
+              type="text"
+              value=""
+            />
+            <input
+              onChange={[Function]}
+              placeholder="Rating"
+              type="number"
+              value={0}
+            />
+            <input
+              type="submit"
+              value="Add"
+            />
+          </form>
+        </ItemInput>
+        <ItemList
+          data={Array []}
+          onRatingChange={[Function]}
+        >
+          <div
+            className="item-list-container"
+          />
+        </ItemList>
+      </div>
+    </TodoBody>
+  </Connect(TodoBody)>
+</Provider>
+`;
